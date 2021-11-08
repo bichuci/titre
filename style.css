@@ -59,12 +59,8 @@ body {
   color: var(--normal-link);
 }
 
-.nav-link:hover{
+.nav-link:hover, .nav-link:focus{
   color:var(--hover-link);
-}
-
-.nav-link:focus{
-  color: var(--hover-link);
 }
 
 .nav-link.active{
